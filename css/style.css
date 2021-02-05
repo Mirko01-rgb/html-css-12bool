@@ -1,0 +1,31 @@
+.container{
+  background-color: #FFC0CB;
+  /* border: 1px solid black; */
+}
+
+
+[class*="col-"]{
+  border: 1px solid black;
+  min-height: 200px;
+  position: relative;
+
+}
+
+.text{
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.padding{
+ padding: 0.5%;
+
+}
+
+.pink{
+  border: none;
+  background-color: #F07F80;
+  border: 1px solid white;
+}
